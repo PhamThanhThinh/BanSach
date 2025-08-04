@@ -1,0 +1,24 @@
+thư viện identity
+add-migration
+update-database
+
+IIS Internet Information Service
+
+PM (project manager) -> chia task giúp
+commit nội dụng task được giao
+
+leader
+
+
+order: pending, approved (chức năng của Admin)
+
+.net core deploy đa nền tảng (linux, windows)
+dùng IIS để deploy (trên windows)
+
+add-migration
+update-database
+
+khởi tạo một tài khoản user khi chưa có chức năng quản lý user
+
+SSL
+
