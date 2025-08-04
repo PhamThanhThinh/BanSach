@@ -15,10 +15,20 @@ order: pending, approved (chức năng của Admin)
 .net core deploy đa nền tảng (linux, windows)
 dùng IIS để deploy (trên windows)
 
-add-migration
+add-migration "mo ta"
 update-database
 
 khởi tạo một tài khoản user khi chưa có chức năng quản lý user
 
 SSL
+
+Model:
+Book: không có Author
+
+ViewModel (trung gian):
+Book: Author
+(trong Blazor thì làm theo kiểu thêm ViewModel, code C#)
+
+frontend
+
 
