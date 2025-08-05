@@ -19,4 +19,13 @@ f5
 - code asp.net core mvc + javascript (frontend: React, ...)
 - code asp.net core mvc + frontend là Blazor (code C#) = Blazor 
 
+code first
+update-database không có data chỉ có cơ sở dữ liệu
+import dữ liệu (data cũ -> database mới)
+export dữ liệu
+
+import excel
+export excel
+em có làm một đề tài về ai angent cho một trang web/app quản lý thư viện số, được giải xxx cool ngầu
+(CV xin việc, trả lời phỏng vấn)
 
