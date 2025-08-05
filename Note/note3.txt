@@ -1,0 +1,22 @@
+indonesia
+thư viện Identity
+
+Add-Migration "Mô Tả"
+Update-Database
+
+1 solution 1 project có cả Admin (trang quản lý) và User (trang dành cho người dùng) => dễ code, dễ deploy
+
+1 solution chứa 2 project
+deploy triển khai lên trên mạng cực hơn
+
+code ngầu cool
+ViewModel
+
+f5
+
+- code asp.net webform + javascript thuần
+- code asp.net framework mvc + + javascript thuần
+- code asp.net core mvc + javascript (frontend: React, ...)
+- code asp.net core mvc + frontend là Blazor (code C#) = Blazor 
+
+

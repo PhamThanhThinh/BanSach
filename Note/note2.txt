@@ -1,0 +1,17 @@
+ở đây mình làm riêng:
+quản lý công văn (thêm xóa sửa, show danh sách công văn)
+quản lý công tơ điện (thêm xóa sửa, show danh sách 1 triệu công tơ điện)
+quản lý nhân viên (điều phối đơn vị công tác, quản lý tài khoản)
+quản lý chấm công (...)
+
+app quản lý dùng blazor tiện hơn (asp.net core mvc cũng có tự động auto code chức năng thêm xóa sửa) => tùy
+
+blazor dùng component
+asp.net core -> mvc
+asp.net framework -> mvc
+
+blazor ở trên dùng thư viện giao diện library mudblazor
+
+pending approved ...
+
+tiếng bồi

@@ -12,6 +12,10 @@ namespace BanSach.Models
     [MaxLength(50)]
     public string? BookName { get; set; }
 
+    [MaxLength(50)]
+    [Required]
+    public string? AuthorName { get; set; }
+
     [Required]
     public double Price { get; set; }
 
@@ -24,6 +28,16 @@ namespace BanSach.Models
 
     public List<OrderDetail> OrderDetail { get; set; }
     public List<CartDetail> CartDetail { get; set; }
+
+
+    public Stock Stock { get; set; }
+
+    // không phải là trường dữ liệu
+    [NotMapped]
+    public int Quantity { get; set; }
+
+    [NotMapped]
+    public string GenreName { get; set; }
 
   }
 }
