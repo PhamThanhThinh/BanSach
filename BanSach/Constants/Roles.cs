@@ -11,7 +11,7 @@
 
   public enum Roles
   {
-    User,
+    User=1,
     Admin
   }
 

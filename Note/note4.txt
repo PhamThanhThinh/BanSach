@@ -1,0 +1,162 @@
+
+code first
+Add-Migration
+Update-Database
+
+Breakpoint
+
+XEqz6.3t5.fzggE
+
+stack overflow
+
+- ưu điểm khi dùng bất đồng bộ:
++ ứng dụng không bị đơ và mượt hơn khi có nhiều request gửi lên server
++ tiết kiệm tài nguyên
+- nhược điểm khi dùng bất đồng bộ:
++ khó debug nếu xảy ra lỗi
++ khó nhìn các bước hoạt động của code
++ khó code hơn
++ ứng dụng không nhanh hơn khi dùng bất đồng bộ
++ dễ xảy ra lỗi
+
+
+linq => chậm hơn một chút, chỉ code C#, không thực hiện được các truy vấn quá phức tạp
+sql thuần => nhanh, thực hiện được các truy vấn phức tạp, dùng script sql (phụ thuộc khá nhiều vào database: sql server)
+
+
+storeprocedure + database first (trên trường, làm dự án cá nhân)
+linq + code first (làm dự án nhiều người làm)
+
+TechLead+PM
+
+FPT (search google => vào những trang web tiếng Anh, stack over flow, hiếm khi vào được trang tiếng Việt), có những phòng ban cấm dùng điện thoại, máy quay, internet
+
+pv thì làm trên giấy, hỏi - đáp
+
+
+server (cài .net 6 8 9)
+
+
+tester => coding
+
+convert version file access trước 2000 thành version access hiện tại
+stack over flow (code dùng để convert sang version mới)
+windows form => wpf (techlead)
+
+nối chuỗi => linq
+
+outsource
+
+FPT: không dùng github, chặn truy cập nhiều trang web khi dùng google
+
+claude
+
+
+NotebookLM (tài liệu đưa vào nhiều)
+LMStudio (máy trâu, mạnh)
+
+AMD
+
+tự code
+
+
+trí tuệ nhân tạo: tạo sinh (giọng nói, ...)
+tạo một model giọng nói của một người bất kỳ nếu ta có mẫu giọng nói của người ta 
+
+colab: cho AI học giọng nói (nguồn output đưa vô: audio đọc truyện)
+
+giọng nói => văn bản
+văn bản => giọng nói
+giọng nói của mình => giọng nói của người khác
+
+
+tôi đi code dạo
+AI
+
+AI tạo sinh giọng nói
+AI hình tạo hình ảnh nhờ text nhập vào và điều chỉnh thống số (tải mô hình + cấu trúc github => build server tạo hình ảnh, server đủ mạnh) => nhiều người dùng quá, chơi
+
+text văn bản
+
+VSCode
+comment tự động chuyển sang 
+
+
+- AI: vide coding (đưa ra yêu cầu => code => đưa ra yêu cầu => code ...)
+- thuần: tự code từ đầu, một vài chỗ sử dụng AI (fix lỗi, hỏi về ý tưởng, cho ví dụ, ...)
+
+phần mềm (software)
+code web
+
+bệnh viện (blazor quản lý => thuần C#)
+
+.net core mvc (.net 8 )
+.net 10 (preview)
+
+
+signal (realtime) => web forms => core
+
+blazor hybrid => code mobile như cách code web
+
+xml
+blazor hybrid (dùng c# html css => để mà code mobile)
+
+mobile và website có thể kết hợp trong một solution cùng chung một server => đồng bộ
+
+giao diện xml (logic c#)
+
+
+blazor dùng C# là chủ yếu, giao diện html css
+component (react)
+
+renderbody
+body
+
+.cshtml
+.razor (view -> page)
+MVC
+model (DAL Data Access Layer)
+Controller (
+
+razor (view + logic):
+html
+@ {
+code c# (logic)
+}
+
+service 
+DI
+
+)
+
+
+@code C#
+
+tuyển C#.NET
+học windows form
+làm wpf
+làm VB.NET
+học nối chuỗi
+làm linq
+làm angular
+học microsoft visual studio 2012 2017
+làm IDE cũ hơn MVS (bản chữ đen nền trắng, chữ nhật)
+học database sql
+làm Access (file)
+học javascript
+làm typescript + angular
+học dùng database
+làm json
+
+đi làm => cử đi học thêm java để về làm java (trước đó tuyển C#)
+học tiếng Anh
+làm tiếng Nhật
+
+
+
+
+
+
+
+
+

@@ -10,8 +10,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services
+  .AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+  .AddEntityFrameworkStores<ApplicationDbContext>()
+  .AddDefaultUI()
+  .AddDefaultTokenProviders();
+
 builder.Services.AddControllersWithViews();
 
 // trong tương lai sẽ khai báo service ở đây
@@ -20,13 +24,18 @@ builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 // chạy seedata
+//using (var scope = app.Services.CreateScope())
+//{
+//  await SeedData.SeedDefaultData(scope.ServiceProvider);
+//}
+
 using (var scope = app.Services.CreateScope())
 {
   await SeedData.SeedDefaultData(scope.ServiceProvider);
 }
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+  // Configure the HTTP request pipeline.
+  if (app.Environment.IsDevelopment())
   {
     app.UseMigrationsEndPoint();
   }
