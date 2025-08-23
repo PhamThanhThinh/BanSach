@@ -114,6 +114,129 @@ outsourcing
 windows không có SSL miễn phí, phải mua rồi cài vô server
 linux thì dùng certbot đây là SSL miễn phí, những cũng phải cài vô
 
+https://lib.hcmute.edu.vn/ArticleId/b259477a-1bd8-42a9-a48c-3feded8794aa/nghiem-thu-de-tai-robot-thong-minh-phuc-vu-thu-vien
+
+Đặt Phòng Khách Sạn: (trừ thanh toán ra thì project này khá thiện)
+stripe
+paypal
+
+top
+bottom
+
+học nodejs (backend đối những trang web viết bằng javascript hay react)
+ta có npm và yarn
+khi cài nodejs thì đi kèm với npm
+
 
 https://www.facebook.com/aivietnam.edu.vn/posts/pfbid031AgTRiPJuFheP2UhwP3L1wVLuVq8gu6wZfZQro5J8QaFR7DuSYPhWEsMX62TfYj7l?rdid=WmO0p4eQUMefklHe
+
+Cloudinary
+
+aspdotnet core mvc: c# html css javascript
+(phải vững javascript) thuần javascript
+aspdotnet core blazor: c# html css javascript (không cần phải học sâu quá về javascript, nhẹ hơn)
+(quản lý điện, quản lý công tơ, quản lý bệnh viện...)
+aspdotnet core react: c# html css javascript (nặng về javascript) react
+...
+framework/library frontend...
+angular
+học cách dùng api (siêu khó, code siêu dễ bị lỗi)
+
+Blazor MAUI: desktop app, mobile app
+C#, HTML, CSS, JS
+C#, XAML (mở rộng của xml) để làm giao diện
+
+C# là backend
+NodeJS cũng là backend
+khi làm ứng dụng chọn 1 trong 2
+
+C# (backend) + React (frontend)...chủ yếu dùng javascript
+C# (backend) + Blazor (frontend)
+NodeJS (backend) + React (frontend)
+
+library React (frontend)
+React nó phổ biến
+
+NodeJS, React, javascript dùng macos ok
+C# nên dùng windows
+
+nếu học online trường đại học thì nên dành cho liên thông, văn bằng 2
+offline
+
+member -> leader -> PM
+
+PM: tìm dự án
+
+hai ông này:
+CTO
+CEO
+đổ tiền vào dự án (thuế chấp ngân hàng, vốn)
+
+bình thường -> 8 9 tới 10 triệu
+10 -> 15: giỏi
+
+input: prompt
+Malay -> tiếng Anh -> làm ở singapore, philippin, indo
+liên thông hoặc văn bằng 2
+
+Team building (đi chơi)
+tình nguyện (hè)
+
+CV xin việc
+
+làm đồ án -> giới thiệu vào thực tập ở công ty nào đó (gửi sinh viên, giáo viên đích thân tới cùng luôn)
+cùng một công ty hợp tác với nhiều trường
+huế
+đà nẵng
+quảng bình
+quảng ngãi
+quảng nam
+apply luôn công ty (ký hợp đồng 1 năm, sau 1 năm thì ký 1 năm/nhiều năm)
+1 năm nếu có lương tháng 13 thì lời 2 tháng lương
+
+
+freelance: chủ yếu là tiếng Anh
+mà bên Mỹ Canada người ta layoff (sa thải) nhiều
+nên khó cạnh tranh lắm
+freelance có kinh nghiệm làm 3 năm ở công ty thì mới đủ sức để làm freelancer
+
+web, mobile chưa bao giờ thiếu việc
+bảo mật (quản trị mạng): đại học chính quy công nghệ thông bằng nhân làm kỹ sư công nghệ thông tin
+hoặc học riêng bảo mật
+
+FPT: 
+bảo mật: 
++ lắp ráp máy tính, cài đặt phần mềm bảo mật cho máy tính cho công ty
+phòng IT (ít nhân viên hơn khá nhiều, bộ này thiếu người)
++ lập trình phần mềm
+bộ phận sản xuất (siêu nhiều nhân, lên tới cả trăm, cả ngàn nhân viên)
+
+bộ phận sản xuất -> report vấn đề quá nhiều -> phòng IT sẽ cử người xuống hỏi sao có nhiều report kiểm tra đó có phải là những report chính đáng
+vấn đề quá nhỏ không report
+
+
+học riêng với thầy: tấn công mạng, đi thi cấp trường ...
+hacker mũ trắng
+
+ở Việt Nam bằng rất quan trọng
+- không có bằng đại học: khó xin việc
+(lương thấp hơn)
+- có bằng đại học: bằng giỏi, dễ xin việc hơn, lương cao hơn
+nhiều bạn tay ngang (trái ngành) khó xin việc vì có kỹ năng nhưng không có bằng cử nhân công nghệ thông tin
+
+cao đẳng, trường nghề: thực hành nhiều hơn, học thời gian ngắn hơn từ 2 tới 3 năm
+đại học: lý thuyết nhiều, thực hành nhiều, thời gian học nhiều từ 4 tới 5 năm
+
+CV chưa chắc bị loại ngay (nếu như trường nghề  giới thiệu vào công ty thì sẽ có việc) mặc dù chưa tốt nghiệp (tốt nghiệp bù bằng sau)
+
+bằng TOEIC thì lương sẽ được cao hơn nếu như add vào trong profile (ở FPT sẽ có một profile)
+lương cao hơn so với bạn không có bằng TOEIC (tiếng Anh)
+N3 (tiếng Nhật)
+
+
+
+
+
+
+
 
