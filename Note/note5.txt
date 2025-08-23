@@ -1,0 +1,119 @@
+3 khái niệm cần hiểu để deploy hay triển khai một trang web
+web-pages, web-servers, web-browsers
+- web-pages: trang web
+- web-servers: máy chủ web: apache, nginx, Microsoft IIS (Microsoft Information Internet Services)
+apache: phù hợp cho server là hosting
+nginx: phù hợp cho server là VPS Linux (miễn phí SSL -> certbot, nhanh) -> certbot phù hợp với nginx hơn vì deploy bằng dòng lệnh, SSL giúp cho trang web chạy https (nếu dùng http thì sẽ bị cảnh báo bảo mật)
+- web-browsers: trình duyệt (developer tools)
+
+
+seed data (data seeder): tạo dự liệu mặc định cho cơ sở dữ liệu database
+
+frontend
+backend
+
+aspdotnet core blazor (thì blazor chính là frontend)
+aspdotnet core react (thì react chính là frontend)
+
+Ứng dụng Chat phổ biến được dùng trong doanh nghiệp (làm phần mềm) thường dùng Microsoft Teams
+
+dump RAM
+
+components
+
+Trong thiết kế layout của web/app, người ta thường chia trang thành các khu vực:
+
+Top menu / Header → thanh điều hướng trên cùng.
+
+Body / Content → phần nội dung chính.
+
+Footer → chân trang.
+
+Left / Right side → thường gọi là Sidebar.
+
+image library
+comic book gallery
+quản lý
+cho tải xuống
+
+IDE là ... xanh lá cây
+
+vps chỉ có 2ram có thể dùng pale moon (trình duyệt)
+
+2ram + 1cpu + (storage: lưu trữ 50gb): chỉ cần 2ram là đủ để deploy một trang web
+
+pale moon: 
+
+
+HP
+
+C++ là đa kế thừa
+2 class cha
+
+C# không cho đa kế thừa nữa
+1 class cha
+
+aspdotnet core mvc
+blazor 
+
+aspdotnet core
+
+blazor (là frontend): dùng chủ yếu là C# để code frontend (có áp dụng một chút javascript)
+
+aspdotnet core mvc (razor, javascript)
+
+signal
+
+devexpress
+
+wpd (form làm sẵn)
+
+http và https khi chạy lên sẽ có khung console (dùng để debug, check lỗi, xem comment bằng console.writeline)
+còn nếu chạy bằng Microsoft IIS (Microsoft Internet Information Services) thì không có khung console
+
+deploy bằng docker thì sẽ dễ bảo trì hơn (tức là thêm xóa sửa chức năng sau này khi đã deploy trang web lên rồi)
+
+nếu dùng IIS thì giải pháp là code và deploy trên cùng một máy (code aspdotnet trên VPS)
+
+server nó đắt
+vps/cloud
+
+web thì dùng html css (bootstrap) + javascript
+desktop app/mobile app thì dùng xml (xaml)
+
+devexpress (windows form, blazor: mubbalzor)
+
+python làm ứng dụng có giao diện
+c# có làm ứng dụng với giao diện
+windowform
+wpf
+blazor maui (code desktop app/mobile app )
+
+nvidia
+
+ghi log
+
+venv\Scripts\activate.bat
+
+bios sửa được chuẩn legacy/không phải là legacy
+
+ổ cứng: 3 lần
+laptop -> pc 1 -> pc 2
+
+biến đổi file iso win 10 thành file iso cài win 11 (không cần phần cứng mà win 11 yêu cầu)
+
+vibe coding: làm giao diện web thì có thể phân biệt được, nhiều chỗ không cần code để generate nhưng chỗ đó vẫn dùng code -> AI
+vibe coding: dựa hoàn toàn vào AI
+
+coding sử dụng AI để hỗ trợ: 
+
+nhập đầu vào giống như là senior đang chỉ junior làm việc (chỉ từng chi tiết - rất rất chi tiết)
+
+outsourcing
+
+windows không có SSL miễn phí, phải mua rồi cài vô server
+linux thì dùng certbot đây là SSL miễn phí, những cũng phải cài vô
+
+
+https://www.facebook.com/aivietnam.edu.vn/posts/pfbid031AgTRiPJuFheP2UhwP3L1wVLuVq8gu6wZfZQro5J8QaFR7DuSYPhWEsMX62TfYj7l?rdid=WmO0p4eQUMefklHe
+
