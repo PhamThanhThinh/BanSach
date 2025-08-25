@@ -1,0 +1,207 @@
+DEVOPS
+
+DevOps
+
+model => chạy mô hình ngôn ngữ offline
+
+api
+
+format code (ctrl K F)
+
+
+theme bootstrap miễn phí
+tùy biến theo sở thích
+https://bootswatch.com/
+
+f5
+
+card
+
+aspdotnet core mvc
+aspdotnet core blazor
+
+Microsoft IIS
+Internet Information Services
+
+
+mx
+margin + ox
+
+
+badge (chứa số khi giỏ hàng có thêm hàng)
+
+data seeder cho tài khoản admin
+
+import (code)
+export (code)
+
+seed data (code)
+
+
+thực tập 100 người
+80 người theo java (8 team)
+20 người theo .net (2 team)
+khách hàng Nhật nhưng lập trình viên làm ở Việt Nam
+Q&A (dịch thuật)
+
+
+PM (Project Manager): tìm dự án
+CTO đổ tiền vào dự án
+start dự án
+Khách Hàng gửi yêu cầu
+Q&A dịch từ tiếng Nhật sang tiếng Việt để dev đọc yêu cầu
+yêu cầu tới Dev
+Dev viết giao diện (sửa lại giao diện từ source code dự án khách hàng đưa)
+push lên server git (một server git do devops làm cho, techlead làm)
+leader review code
+tester test lại => ok/không ok => không ok đưa lại cho dev tiếp tục làm lại, fix lại
+Q&A gửi email (tiếng Nhật)
+khách hàng nhận code
+khách hàng review
+ok => xong 1 task
+không ok => đưa cho dev fix lại...
+...
+nghiệm thu dự án:
+nếu không có issue gì thì liên hoan
+có issue thì dev nào làm chức năng đó thì ngồi vào xử lý (cho dù đã chuyển sang dự án khác)
+
+triển khai ở phía khách hàng (đi công tác sang Nhật để cài)
+cử một vài thành viên qua cài cho một đống máy
+ví dụ: cài Microsoft SQL Management Studio dưới sự giám sát của một ông nhân viên người Nhật (giám sát 8 tiếng /8 tiếng)
+trở về nước
+liên hoan với sự góp mặt của cấp trên của CTO
+
+
+
+khách hàng Nhật thường giao một phần của dự án trước (trả tiền trước rồi)
+nếu ok thì đưa những phần còn lại sau
+
+dự án đang làm thì khách hàng phá sản (trong quá trình thực hiện dự án, thì khách hàng phải bơm tiền công qua)
+
+
+seri micro service (mini api)
+
+google collab (bản free thì chỉ để học/nghiên cứu, bản đầy đủ thì phải mua/trả phí/paid)
+
+AI tạo sinh: tạo giọng nói...
+tạo ra một model ngôn ngữ theo mẫu giọng nói nhập vào
+(file audio một bạn kể chuyện audio trên youtube)
+ML DL
+khi nào đó làm video hướng dẫn AI tạo sinh
+
+one on one instruction: hướng dẫn một kèm một
+mentor: quan hệ gần (sư phụ và người học việc)
+partner: quan hệ gần (cộng sự)
+
+nhập dữ liệu
+
+lập trình: claude/cursor, copilot
+
+học tiếng anh: ELSA Speak (English Language Speech Assistant)
+
+chatgpt/gemini (tổng hợp)
+
+origin
+
+Blazor dùng ViewModel hơn là dùng trực tiếp Model
+Model khác ViewModel (tùy biến lại danh sách dữ liệu)
+
+dùng thư viện Identity thì mặc định dbcontext là ApplicationDbContext
+
+frontend: react (meta/facebook) -> javascript, vue, blazor (microsoft)...
+
+backend: c#
+
+
+
+
+BIDV (ngân hàng)
+Zalo (công ty công nghệ)
+FPT Software
+Bệnh viên
+Công ty vừa và nhỏ
+...
+https://www.topcv.vn/tim-viec-lam-fresher-reactjs?sba=1
+
+
+laptop: lenove i7 (intel) amd
+
+Lenovo ThinkPad X1 Carbon Gen 11 - i7 1365U, 16GB, 512GB, FHD+
+
+
+3TB
+
+
+lập trình app dành cho điện
+máy tính để build ảo hóa (xeon 2 socket gắn 2 cpu)
+
+
+laptop dell khung sườn mềm
+laptop hp cứng hơn
+lenovo legion dành cho gaming nên to bự (cứng)
+laptop lenovo gen11 nhỏ gọn (siêu dắt, giá > 50 củ + 5 triệu 6)
+
+lắp vít lòi ra luôn lên vì lắp sai vít 
+
+dev 0
+intert (0 năm)
+fresher (1 năm)
+dev 1 (member 2 năm)
+dev 2 member/leader (3 năm), làm leader thì mệt
+dev 3 (???) 
+dev 4 (techlead) từ 6 năm
+
+web tĩnh: html css javascript
+web động:
++ backend: NodeJS (javascript nâng cao), Java Spring, C# .NET Core, PHP (Wordpress...)
++ frontend: React (javascript nâng cao), Spring, Blazor (C#)
+angular, vuejs, typescript
+nextjs
+
+phải hiểu khái niệm component (blazor, react, ...)
+header(top menu)
+body
+footer
+sidebar (left/right)
+
+deploy: web server, web page, web brower
+web server: Microsoft IIS (khác server: vps, cloud, server thật, hosting...) vmware, cpanel
+web page: trang web của chúng ta cần deploy
+web brower: chrome (developer tool)
+
+html css (bootstrap)
+javascript (học kỹ)
+c# (nắm vững kiến thức C# nâng cao)
+DI
+ViewModel (khác với aspdotnet core mvc một chút)
+chủ yếu dùng services (repository)
+
+MudBlazor (nâng cao, thư viện giao diện dành cho Blazor)
+
+thực hành làm một trang web nhỏ nhỏ (todo list, caculator, ...)
+deploy thử trên somee
+
+đảm bảo máy đã cài: sql bản mới nhất, ssms (sql server management studio), visual studio 2022 community
+
+
+vercel
+
+vps: số cpu 1, ram 2gb, ổ cứng 10GB, băng thông không giới hạn
+
+không dùng điện thoại
+không dùng các thiết bị ghi hình
+internet chận kết nối hầu các trang tiếng việt, trang không toàn, chỉ để lại các trang tiếng anh và một số trang tiếng việt
+stack over flow phải có
+không dùng AI
+không dùng github (tạo server git riêng)
+
+các thời kỳ của lập trình aspdotnet:
+1, thời kỳ đầu: aspdotnet webform (giống winform đều kéo thả control)
+2, aspdotnet mvc (.net framework 2=>4.8)
+3, aspdotnet core mvc (.net core 2=>9)
+4, aspdotnet core blazor (Blazor MAUI => còn có thể code app mobile/app desktop)
+
+winform (kéo thả), wpf (xaml)
+
+
+
