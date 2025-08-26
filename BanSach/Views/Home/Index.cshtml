@@ -1,4 +1,10 @@
-﻿@{
+﻿@using BanSach.Models.DTO
+@* sử dụng như sau *@
+@* đây là cách 1 *@
+@* @model IEnumerable<Book> *@
+@* còn một cách nữa sẽ học sau *@
+@model BookViewModel
+@{
   ViewData["Title"] = "Home Page";
 
   // ctrl K C
@@ -14,18 +20,41 @@
 }
 
 <div class="my-2">
-  <form class="row gy-2 gy-3 align-items-center">
+  <form asp-action="Index" class="row gy-2 gy-3 align-items-center">
     <div class="col-auto">
       @* <label class="" >Nhập vào từ khóa</label> *@
-      <input type="text" class="form-control" />
+      <input type="text" class="form-control" id="term" name="term" placeholder="Search" />
     </div>
     <div class="col-auto">
       @* <label>Thể loại:</label> *@
-      <select class="form-select" id="genreId">
-        <option selected>Chọn thể loại</option>
+      <select class="form-select" id="genreId" name="genreId">
+        @* <option selected>Chọn thể loại</option>
         <option value="1">Romance</option>
         <option value="2">Action</option>
-        <option value="3">Drama</option>
+        <option value="3">Drama</option> *@
+        <option selected>Chọn thể loại</option>
+        @foreach (var genre in Model.Genres)
+        {
+          @* <option selected="@(genre.Id == Model.)" value="@genre.Id">@genre.GenreName</option> *@
+          // chúng ta tiếp tục làm selected
+          @* <option selected="@(genre.Id == Model.)" value="@genre.Id">@genre.GenreName</option> *@
+          // khoang đã không thấy GenreId đâu???
+          // chúng ta test chức năng search tiếp nha
+          <option selected="@(genre.Id == Model.GenreId)" value="@genre.Id">@genre.GenreName</option>
+          // cơ bản là như vậy
+          // chúng ta sẽ tiếp tục test chức năng lọc + search
+          // sau khi test thì thấy chức năng lọc + search khá đúng
+          // nhưng nó chỉ search được một từ
+        }
+
+        @* chức năng search chỉ hoạt động với từ khóa đầu tiên
+nếu tiêu đề cần tìm có 2 từ thì từ số 2 không được liệt kê vào danh sách cần tìm
+đã kiểm tra lại lần nữa đúng là nó không tìm thấy từ số 2
+ví dụ search từ kills thì trong cụm từ Deadpool Kills the Marvel Universe
+thì nó chỉ kiểm tra từ Deadpool thôi
+chức năng seach quá toang
+        *@
+        
       </select>
     </div>
     <div class="col-auto">
@@ -38,7 +67,7 @@
   <h1 class="display-4">Chào Mừng Bạn Đến Với Kênh Coding With Thịnh</h1>
 </div>
 <div class="w-100 d-flex flex-wrap">
-  @for (int i = 0; i < 6; i++)
+  @* @for (int i = 0; i < 6; i++)
   {
     <div class="card mx-2 my-2" style="width: 18rem;">
       <img src="https://m.media-amazon.com/images/I/91i1cYDsxWL._SL1500_.jpg" class="card-img-top" alt="...">
@@ -48,6 +77,38 @@
           Mô tả: <span></span>
           Tác giả: <span></span>
           Đơn giá: <span></span>
+        </p>
+        <a href="#" class="my-2 btn btn-primary">Mua Hàng</a>
+        <a href="#" class="btn btn-primary">Thêm Vào Giỏ Hàng</a>
+      </div>
+    </div>
+  }
+  @* từ model bên trên viết thường
+    bên dưới viết hoa *@
+
+  @foreach (var book in Model.Books)
+  {
+    <div class="card mx-2 my-2" style="width: 18rem;">
+
+      @if (string.IsNullOrEmpty(book.Image))
+      {
+        <img src="https://m.media-amazon.com/images/I/91i1cYDsxWL._SL1500_.jpg" class="card-img-top" alt="...">
+      }
+      else
+      {
+        @* <img src="~/img/doctor who.jpg" class="card-img-top" alt="..."> *@
+        <img src="~/img/@book.Image" class="card-img-top" alt="...">
+      }
+
+      <div class="card-body">
+        <h5 class="card-title">@book.BookName</h5>
+        @* vì bản book không có trường mô tả
+        nên ta làm như bên dưới thôi nha
+        *@
+        <p class="card-text">
+          Thể loại: <span>@book.GenreName</span>
+          Tác giả: <span>@book.AuthorName</span>
+          Đơn giá: <span>@book.Price</span>
         </p>
         <a href="#" class="my-2 btn btn-primary">Mua Hàng</a>
         <a href="#" class="btn btn-primary">Thêm Vào Giỏ Hàng</a>

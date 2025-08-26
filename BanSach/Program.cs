@@ -1,4 +1,5 @@
 ﻿using BanSach.Data;
+using BanSach.Repo;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,6 +18,7 @@ builder.Services
   .AddDefaultTokenProviders();
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<IHomeRepository, HomeRepository>();
 
 // trong tương lai sẽ khai báo service ở đây
 // ...

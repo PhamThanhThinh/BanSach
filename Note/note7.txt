@@ -1,0 +1,138 @@
+mapping (ánh xạ)
+phép gán
+chuyển từ chữ hoa thành chữ thường (bài toán khi học lập trình cơ bản với C/C++)
+ToLower()
+
+nhấn ctrl + click chuột trái để xem reference
+
+
+doctor who 1
+doctor who 2
+doctor who 3
+
+term: doc
+
+SQL
+
+
+trong C# muốn làm việc với dữ liệu thì bắt buộc phải dùng biểu thức lambda (nhất là trong codefirst)
+đối với databasefirst (webform, aspdotnet mvc, aspdotnet core mvc, aspdotnet core blazor) storeprocedure trong sql
+
+làm video về các phím tắt trong khi code
+
+phím tắt trong visual studio
+ctrl K C (comment)
+ctrl K U (giải comment)
+ctrl space (mở danh sách gợi ý code)
+ctrl . (mở gợi ý về các code, generate code tự động)
+ctrl + phím lên/xuống (xem code mà không cần dùng chuột)
+
+khi code C# sai về mặt logic thì sẽ id = 0 hoặc ra số âm (khi làm việc với database)
+
+cú pháp toán tử 3 ngôi:
+condition ? expressionIfTrue : expressionIfFalse
+
+
+HomeService
+IHomeService
+
+HomeRepository
+IHomeRepository
+
+Vì mưa quá lớn mình sẽ tắt mic
+Xíu mưa nhỏ lại thì bật lại mic nha
+định tắt mic nhưng mà thôi @@
+
+Tiếp theo chúng ta sẽ khai báo Service (khai báo repository) trong Program
+có nhiều cách khai báo service
+add transient Mỗi lần request sẽ tạo ra một instance mới.
+add scoped
+add singleton
+
+bước tiếp theo: làm controller
+
+phải check điều kiện trước nha
+
+code check điều kiện cho nó
+
+bấm f5 để chạy
+
+Dùng Blazor để làm 1 trong các đề tài sau
+Ứng dụng Chat
+Blog
+Mạng xã hội (Social media)
+
+web đọc truyện???
+audio truyện
+làm web truyện
+người ta kiếm được nhiều view
+
+wordpress để làm trang truyện
+vì nó có sẵn hết rồi
+
+theme wordpress truyện
+thuê hosting/vps
+ssl
+vps thì phải cài certbox
+vps hệ điều hành là linux là đủ chạy wordpress rồi
+còn hosting thì không cần cài ssl vì người ta cài hết tất cả những gì cần để deploy trang web (PHP, SSL...)
+
+vps thì phải cài nhiều thứ (dùng bằng lệnh command line trên một vps linux)
+server linux không được dùng giao diện vì có lỗ hổng bảo mật
+linux dùng cmd thì quá ok (nhẹ, bít được lỗ hổng bảo mật mà giao diện đưa tới)
+nguồn truyện
+cài tool cào truyện
+đối với web thì view ít cũng có thể chạy được quảng cáo
+(nguồn trafic phải siêu siêu nhiều thì mới có lời)
+domain
+truyện trung quốc dịch sang tiếng Việt thì ít bị bắt bản quyền (đối với web)
+web phim thì siêu siêu khó
+(phimmoi đã ngủm vì bị đập quá nhiều)
+đập vô domain
+khó kiếm $ lắm
+gặp Thịnh thì Thịnh sẽ né đề truyện và phim ra (chỉ có dân chuyên thì mới làm được)
+không có lời: tiền thuê domain, tiền thuê vps, tiền mua theme wordpress...công sức bỏ ra không đáng
+có thể làm đề tài trên trường phục vụ mục đích học tập thì ok
+----------------------------------
+DTO Data Transfer Object
+BookViewModel (cũng dùng trong Blazor luôn)
+
+không biết chỗ các bạn thế nào
+chứ chỗ mình mà mưa dài ngày là wifi bị chậm chậm sao á
+
+dùng bất đồng bộ vì ta cần tìm kiếm dữ liệu trên nhiều bảng và một bảng thì có rất nhiều dữ liệu
+(async và await)
+
+instance (object cụ thể): trường dữ liệu
+
+biểu thức so sánh bằng: ==
+
+
+
+Deadpool Kills the Marvel Universe
+
+junior
+senior
+
+Deadpool Kills the Marvel Universe
+
+
+cách giải quyết khi selected không hoạt động
+cần viết thêm chức năng để fix
+code thêm trong BookViewModel
+
+chúng ta đã đi được 1 phần 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
