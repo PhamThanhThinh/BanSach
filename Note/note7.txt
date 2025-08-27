@@ -122,6 +122,8 @@ cần viết thêm chức năng để fix
 code thêm trong BookViewModel
 
 chúng ta đã đi được 1 phần 10
+code mình đã push lên trên github.com/PhamThanhThinh rồi nha
+bye bye
 
 
 

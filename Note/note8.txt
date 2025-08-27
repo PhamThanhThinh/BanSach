@@ -1,0 +1,15 @@
+Có hai cách truy vấn khi làm việc với linq là:
+1. Query Syntax
+2. Method Syntax
+
+
+cú pháp biểu thức lambda (syntax)
+[instance] => [biểu thức: so sánh bằng, công trừ nhân chia, ...]
+
+
+những đề tài chỉ cần trang quản lý (trang admin) mà không cần trang user:
+quản lý công văn
+quản lý công tơ điện
+quản lý nhân viên
+...
+còn đối với trang web bán hàng ta cần cả trang admin và trang user
