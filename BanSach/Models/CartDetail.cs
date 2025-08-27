@@ -20,5 +20,8 @@ namespace BanSach.Models
     [Required]
     public int Quantity { get; set; }
 
+    // giá của món hàng
+    public double UnitPrice { get; set; }
+
   }
 }

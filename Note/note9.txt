@@ -1,0 +1,31 @@
+Chức Năng Giỏ Hàng
+Làm video về Unity
+- Cài Unity
+- Cài Visual Studio 2022
+(Visual Studio Code)
+
+Code desktop app cần học những gì:
+Đối với C#:
+- C# cơ bản và nâng cao
+- Windows C#.NET (kéo thả control, C#)
+- WPF (giao diện: XAML, code backend C#)
+- Blazor MAUI (HTML, CSS, JS, C#) => HTML CSS JS kết hợp bootstrap để làm giao diện => app đa nền tảng: windows, macos, linux, mobile: ios & android
+
+frontend
+- React (javascript/typescript)
+- ASP.NET Core MVC (javscript)
+- Blazor (ASP.NET Core, code C# chủ yếu)
+- Angular (typescript)
+
+thường phân thành:
+backend: api
+frontend: xử lý sự kiện phía giao diện
+
+nodejs (javascript)
+react (javascript)
+
+ASP.NET Core (C#)
+blazor (C#)
+
+component (cơ chế trong frontend)
+
