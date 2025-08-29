@@ -18,10 +18,16 @@ builder.Services
   .AddDefaultTokenProviders();
 
 builder.Services.AddControllersWithViews();
-builder.Services.AddTransient<IHomeRepository, HomeRepository>();
 
 // trong tương lai sẽ khai báo service ở đây
 // ...
+
+// đăng ký dịch vụ IHomeRepository
+builder.Services.AddTransient<IHomeRepository, HomeRepository>();
+// đăng ký dịch vụ cho ICartRepository
+builder.Services.AddTransient<ICartRepository, CartRepository>();
+
+
 
 var app = builder.Build();
 

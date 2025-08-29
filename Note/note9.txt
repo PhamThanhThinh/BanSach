@@ -29,3 +29,6 @@ blazor (C#)
 
 component (cơ chế trong frontend)
 
+add-migration them-truong-price
+update-database
+

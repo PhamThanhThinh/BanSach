@@ -1,0 +1,170 @@
+C#:
+- Game Unity (90%)
+- Web: WebForm, ASP.NET MVC (.net framework), ASP.NET Core MVC (.net core), Blazor
+- App máy tính (windows, macos, linux): Blazor MAUI
+- App điện thoại (androi, ios): Blazor MAUI
+
+exe
+web thì phải deploy nó lên internet
+
+viber
+
+hp z230 hp z240
+dell optiplex 3020
+
+công ty ở Việt Nam làm với khách hàng bên Hàn Quốc
+xe tự lái
+AI cho xe ô tô
+công ty bên Hàn, trụ sở VN
+du học Hàn Quốc
+
+python cơ bản thì dễ
+nhưng nâng cao code khó
+
+{
+}
+
+c# khai báo biến
+python khai báo đơn giản hơn
+
+xe tự lái
+du học Đức
+FPT: đa phần dự án là outsource (Java => kh Nhật, C# => US), ios (ứng cho iphone)
+product
+
+card rời: nhân cuda nvidia
+
+nếu muốn dùng tiếng Việt cho https://github.com/zyddnys/manga-image-translator thì phải tự cấu hình
+business
+công nghệ
+
+tính thuế VAT
+hoặc người bán tự tính
+amazon, shopee, ...
+
+cá nhân: làm thuê cho doanh nghiệp
+bán (công ty/doanh nghiệp/hộ kinh doanh gia đình)
+
+làm 1 tháng có 1 ngày nghỉ (không tính thứ 7 và cn)
+12
+
+deploy: linux sẽ rẻ hơn windows
+linux: deploy trang web (1cpu, 2gb ram, 10gb)
+chỉ dùng command line
+
+aspdotnet core mvc
+1, viết service (nếu dùng DI)
+2, đăng ký dịch vụ
+
+Q&A (công nghệ thông tin)
+phiên dịch viên
+phóng viên thường trú ở nước ngoài
+giảng dạy (trung tâm)
+hội nghị (phiên dịch viên cao cấp)
+
+automatic car
+software engineer
+phỏng vấn:
+học cơ bản cho chắc vào
+software engineer
+
+- CTO: em có người yêu chưa? (gặp một ông CTO nào đó, CTO người phỏng vấn vui tính)
+- yes/no (không khí vui tươi)
+- techlead: sở thích của em là gì? (sở thích về lập trình)
+C# Java
+thích đọc truyện (sai) -> không em về ngôn ngữ á (techlead)
+C# (đúng)
+version mới nhất của .net là gì?
+.net core nó đã ra .net 10 rồi, đang preview thôi, chưa deploy, deploy mới nhất là .net 9 (thằng này có tìm hiểu công nghệ)
+- techlead ngó vào cv để xem project có trong đó
+hỏi xoay quanh project
+hỏi chức năng giỏ hàng em như thế nào? nói về quy trình làm, nói mạch lạc
+
+ví dụ cv không có project/không muốn hỏi project thì sao
+- Quy hoạch động (Dynamic Proraming hay DP)
+- tree nood: BFS & DFS
+- thuật toán Binary Search
+- con trỏ: two pointers ...
+- mã hóa: Hashing
+
+- CTO: tại sao em lại chọn phỏng vấn ở công ty anh?
+khen công ty...
+anh tuyển em làm C# nhưng hiện tại không có dự C#, có dự án Java em có chịu làm không? có (làm java) không (có khả năng sếp không có nhu cầu tuyển -> rớt)
+- em có tự học được công nghệ mới không ngoài cái em đã học (em học c#, java)
+- ít bữa anh giao cho em một task mà em không làm được thì em sẽ nói với anh như nào
+- em hơn bạn khác ở điểm nào?
+khiêm tốn: ... (đúng)
+không khiêm tốn: em hơn ...
+- product (dùng chatgpt thoải mái)
+- outsource (hạn chế, hoặc tự build model server...) => sợ lộ code nên ít dùng AI nha
+
+react
+to do list
+caculator
+=> phỏng vấn luôn (chiến)
+
+(FPT -> Fresher -> project
+em đóng vai trò gì cho dự án)
+
+thử việc:
+công ty khách hàng Nhật
+không thích Nhật
+chuyển bộ phận
+
+software engineer
+robotic engineering
+computer sience
+
+layoff
+
+đi làm
+buổi sáng: 8 - 11h: 3 tiếng
+ăn trưa: 11h tới 13h (công việc thư thả, deadline còn xa, còn k thì 11h30/12h00)
+buổi chiều: 13h00-17h00 (4 tiếng)
+có những buổi sếp cho liên hoan giữa trận
+17h00: bạn có phải là người đi về đầu tiên (sếp không ở đó thì ta đi về)
+gần tới deadline thì sao???
+leader còn ở thì mình còn ở
+task được phân chưa giải quyết xong thì giải quyết
+hoặc 17h00 về: tắm ăn -> remote làm tiếp
+
+
+leetcode + luyện tiếng Anh giao tiếp => phỏng vấn bigtech (amazon, google, microsoft)
+
+web social media
+code > 1 tháng
+
+
+
+web social media
+web + app mobile
+Coding With Thịnh
+
+junior senior
+
+2
+Thịnh không dùng momo:
+donate
+paypal
+momo
+atm
+
+
+
+
+leetcode
+
+
+
+
+remote malaysia, phillipin lương cũng được
+
+PM & techlead
+CTO & PM
+CTO & techlead
+Leader (thân cận với sếp thì đi phỏng vấn)
+
+
+
+
+

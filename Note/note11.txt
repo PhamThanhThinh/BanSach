@@ -1,0 +1,8 @@
+Figma MCP + Cursor
+Figma MCP => lấy code html css từ Figma
+
+code bán sách
+
+1, chat app
+2, social media
+3, blog

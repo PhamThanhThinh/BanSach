@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BanSach.Repo
 {
-  public class CartRepository /*: ICartRepository*/
+  public class CartRepository : ICartRepository
   {
     // code hàm dựng constructor
     private readonly ApplicationDbContext _db;
@@ -22,7 +22,8 @@ namespace BanSach.Repo
     }
 
     // thêm một sản phẩm vào giỏ hàng
-    // Cách 1: cơ bản (viết nháp, test chức năng)
+    // Cách 1: cơ bản (viết nháp, test chức năng, không dùng cơ chế đồng bộ)
+    // còn cách 2 thì dùng cơ chế bất đồng bộ vào (async await), cộng với việc duyệt qua tất cả các dòng dữ liệu
     public async Task<int> AddItem(int bookId, int quantity)
     {
       // dữ liệu rỗng/trống khác với null nha
@@ -40,7 +41,7 @@ namespace BanSach.Repo
           //throw new Exception("User chưa đăng nhập");
           throw new UnauthorizedAccessException("User chưa đăng nhập");
         }
-        var cart = GetCart(userId);
+        var cart = await GetCart(userId);
         if (cart is null)
         {
           // thì thêm giỏ hàng cho user đó
@@ -104,7 +105,7 @@ namespace BanSach.Repo
         {
           throw new UnauthorizedAccessException("Khách hàng chưa đăng nhập. Vui lòng đăng nhập.");
         }
-        var cart = GetCart(userId);
+        var cart = await GetCart(userId);
         // kiểm tra giỏ hàng
         // giỏ hàng tương ứng với user đăng nhập không tồn tại
         // là do user đó chưa được xác nhận email
@@ -163,7 +164,6 @@ namespace BanSach.Repo
       return data.Count;
     }
 
-
     // tưởng mô cách này dễ
     //private bool HasCart(string userId)
     //{
@@ -171,12 +171,49 @@ namespace BanSach.Repo
     //  // toán tử 3 ngôi (lập trình C/C++)
     //  return ketQua != null ? true : false;
     //}
+    
     // viết code dễ đọc hơn
-    private ShoppingCart GetCart(string userId)
+    //private ShoppingCart GetCart(string userId)
+    //{
+    //  var gioHang = _db.ShoppingCarts.FirstOrDefault(x => x.UserId == userId);
+    //  return gioHang;
+    //}
+    // ở đây ta không dùng nạp chồng toán tử (lập trình căn bản với C/C++, cấu trúc dữ liệu và giải thuật C/C++)
+    // overloading, operator
+    // duyệt tất cả các dòng dữ liệu trong bảng Giỏ Hàng (Cart)
+    public async Task<ShoppingCart> GetCart(string userId)
     {
-      var gioHang = _db.ShoppingCarts.FirstOrDefault(x => x.UserId == userId);
+      var gioHang = await _db.ShoppingCarts.FirstOrDefaultAsync(x => x.UserId == userId);
       return gioHang;
     }
+
+    // truy vấn dùng kiểu method syntax
+    public async Task<ShoppingCart> GetUserCart()
+    {
+      var userId = GetUserId();
+
+      // chưa đăng nhập
+      // người dùng không tồn tại
+      // không tồn tại người dùng này
+      if (userId == null)
+      {
+        throw new InvalidOperationException("tài khoản người dùng không tồn tại");
+      }
+
+      // binding/truy vấn
+      var cart = await _db.ShoppingCarts
+        .Include(x => x.CartDetails)
+        .ThenInclude(x => x.Book)
+        .ThenInclude(x => x.Stock)
+        .Include(x => x.CartDetails)
+        .ThenInclude(x => x.Book)
+        .ThenInclude(x => x.Genre)
+        .Where(x => x.UserId == userId)
+        .FirstOrDefaultAsync();
+
+      return cart;
+    }
+
     // chúng ta nên trả về boolean hay string???
     private string GetUserId()
     {
@@ -191,6 +228,7 @@ namespace BanSach.Repo
       return null; // User chưa đăng nhập
     }
 
+    // làm cơ bản thôi
     // Cách 2: nâng cao
     //public Task<int> AddItem(int bookId, int quantity)
     //{
@@ -206,5 +244,13 @@ namespace BanSach.Repo
     //{
     //  throw new NotImplementedException();
     //}
+
+    // code chức năng thanh toán thì rất là dài
+    // dùng paypal: atm, ...
+    // có api
+    // thanh toán online và thanh toán COD
+    // blogspot (thanh toán COD) + google sheet...
+
+
   }
 }
